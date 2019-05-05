@@ -1,8 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    
-    <router-link  :to="{ path: 'beam'}"><button>hello</button></router-link>
+   <h1>{{msg}}</h1>
   </div>
 </template>
 
@@ -11,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Beam Eng'
     }
   }
 }
